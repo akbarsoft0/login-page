@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+
+input:not(input[type="checkbox"]) {
+    width: 80%;
+    padding: 1rem;
+    margin: 1rem;
+    text-transform: capitalize;
+}
+
+.passbox {
+    position: relative;
+}
+
+#passEye {
+    position: absolute;
+    top: 40%;
+    right: 15%;
+
+}
+
+form {
+    background-color: #00ccff;
+    width: 400px;
+
+    margin: 4rem auto;
+    padding: 3rem 2rem;
+    color: #fff;
+    position: relative;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-decoration-line: underline;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    margin: 2rem;
+    color: #fff;
+    background-color: #00ccff;
+    border: 2px solid #fff;
+    border-radius: 6px;
+}
+
+button:active {
+    transform: scale(0.9);
+}
