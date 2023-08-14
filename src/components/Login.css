@@ -22,7 +22,9 @@ input:not(input[type="checkbox"]) {
 }
 
 form {
-    background-color: #00ccff;
+    /* background-color: #00ccff; */
+    background-color: black;
+    color: #fff;
     width: 400px;
 
     margin: 4rem auto;
